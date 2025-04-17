@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS Commute\\MyApiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\connecttctresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\connecttctresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\connecttctservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\connecttctservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\userinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\userinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectTctResponse.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\ConnectTctResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\ConnectTctResponse.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\ConnectTctResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\ConnectTctResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:33:06.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Program.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeToolTip": "MyApiProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:22:25.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduledService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\ScheduledService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\ScheduledService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:04:13.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2c60250e-dccf-4baa-9fff-68b22c012adc",
+        "Display": 0,
+        "X": 2,
+        "Y": 86,
+        "Width": 694,
+        "Height": 545,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConnectTctService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ConnectTctService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\ConnectTctService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ConnectTctService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\ConnectTctService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAD4vxwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T06:52:26.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\LoginService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\LoginService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAzwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:13:08.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserInfoResponse.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\UserInfoResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\UserInfoResponse.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\UserInfoResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\UserInfoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:31:26.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserInfoService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\UserInfoService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\UserInfoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:26:39.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

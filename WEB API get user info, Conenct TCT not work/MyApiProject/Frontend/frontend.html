@@ -1,0 +1,12 @@
+﻿<button onclick="getInvoices()">Lấy hóa đơn</button>
+
+<script>
+  function getInvoices() {
+    fetch('https://localhost:5001/api/bill/get-invoices')
+      .then(res => res.json())
+      .then(data => {
+        console.log('Dữ liệu hóa đơn:', data);
+      })
+      .catch(err => console.error(err));
+  }
+</script>
