@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS Commute\\MyApiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\billlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\billlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\billdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\billdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\userinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\userinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\billdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\billdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillListResponse.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\BillListResponse.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\BillListResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:03:04.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillListService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\BillListService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\BillListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:02:49.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInfoResponse.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\UserInfoResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\UserInfoResponse.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\UserInfoResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\UserInfoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:45:56.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillDetailResponse.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillDetailResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\BillDetailResponse.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillDetailResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\BillDetailResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:45:50.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillDetailService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillDetailService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\BillDetailService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillDetailService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\BillDetailService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:45:35.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Program.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeToolTip": "MyApiProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:22:25.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScheduledService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\ScheduledService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\ScheduledService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:04:13.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f8825587-b656-4801-8610-d8459063e004",
+        "Display": 0,
+        "X": 94,
+        "Y": 464,
+        "Width": 621,
+        "Height": 422,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserInfoService.cs",
+              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\UserInfoService.cs",
+              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\UserInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T07:46:18.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

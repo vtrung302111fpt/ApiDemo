@@ -1,0 +1,591 @@
+{
+    "info": {
+        "_postman_id": "1aa47860-6861-4067-abb8-881209c9e597",
+        "name": "API Connect To xBillStore Copy",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "43372164"
+    },
+    "item": [
+        {
+            "name": "1.Lấy access token",
+            "event": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "exec": [
+                            ""
+                        ],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                },
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "var jsonData = pm.response.json();\r",
+                            "pm.collectionVariables.set(\"token\", jsonData.access_token);"
+                        ],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                }
+            ],
+            "request": {
+                "auth": {
+                    "type": "noauth"
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": " {\r\n    \"username\":\"{{username}}\",\r\n    \"password\":\"{{password}}\"\r\n}\r\n",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{host_get_token}}/management/cyberid/login",
+                    "host": [
+                        "{{host_get_token}}"
+                    ],
+                    "path": [
+                        "management",
+                        "cyberid",
+                        "login"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "2.API get user info",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "const jsonData = pm.response.json(), \r",
+                            "      { hddvNguoiDungResponse, hddvDoanhNghiepResponse } = jsonData.data ?? {};\r",
+                            "\r",
+                            "console.log(\"Current userma: \" + pm.collectionVariables.get(\"userma\") + \r",
+                            "            \", Current doanhnghiepma: \" + pm.collectionVariables.get(\"doanhnghiepma\"));\r",
+                            "console.log(pm.response.code !== 200 ? \"Request failed with status: \" + pm.response.code : \"\");\r",
+                            "\r",
+                            "pm.collectionVariables.set(\"userma\", hddvNguoiDungResponse?.maNguoiDung ?? console.log(\"hddvNguoiDungResponse or maNguoiDung not found\"));\r",
+                            "pm.collectionVariables.set(\"doanhnghiepma\", hddvDoanhNghiepResponse?.maDoanhNghiep ?? console.log(\"hddvDoanhNghiepResponse or maDoanhNghiep not found\"));\r",
+                            "\r",
+                            "console.log(\"Updated userma: \" + hddvNguoiDungResponse?.maNguoiDung + \r",
+                            "            \", Updated doanhnghiepma: \" + hddvDoanhNghiepResponse?.maDoanhNghiep);"
+                        ],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                }
+            ],
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{host}}/api/hddv/nguoidung/get-user-info",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv",
+                        "nguoidung",
+                        "get-user-info"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "3.API cho phép người dùng kết nối TCT để đồng bộ hóa đơn",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            ""
+                        ],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                }
+            ],
+            "protocolProfileBehavior": {
+                "disabledSystemHeaders": {}
+            },
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "accept",
+                        "value": "application/json, text/plain, */*"
+                    },
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "doanhnghiepma",
+                        "value": "{{doanhnghiepma}}"
+                    },
+                    {
+                        "key": "userma",
+                        "value": "{{userma}}"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n\"username\":\"{{usernameTCT}}\",\r\n\"password\":\"{{passwordTCT}}\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{host}}/api/hddv-tct/connect/sign-in",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-tct",
+                        "connect",
+                        "sign-in"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "4.Ngắt kế nối TCT",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "doanhnghiepma",
+                        "value": "{{doanhnghiepma}}"
+                    },
+                    {
+                        "key": "userma",
+                        "value": "{{userma}}"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{host}}/api/hddv-tct/connect/disconnect-tct",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-tct",
+                        "connect",
+                        "disconnect-tct"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "5.Lấy thông tin chi tiết của hóa đơn",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{host}}/api/hddv-hoa-don/detail/8de550f6-5e0a-4369-bad6-3a08c8572619",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-hoa-don",
+                        "detail",
+                        "8de550f6-5e0a-4369-bad6-3a08c8572619"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "6.Danh sách hóa đơn",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "doanhnghiepma",
+                        "value": "{{doanhnghiepma}}"
+                    },
+                    {
+                        "key": "userma",
+                        "value": "{{userma}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{host}}/api/hddv-hoa-don/get-list?current=1&page=0&pageSize=10&size=10&trangThaiPheDuyet",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-hoa-don",
+                        "get-list"
+                    ],
+                    "query": [
+                        {
+                            "key": "current",
+                            "value": "1"
+                        },
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "pageSize",
+                            "value": "10"
+                        },
+                        {
+                            "key": "size",
+                            "value": "10"
+                        },
+                        {
+                            "key": "trangThaiPheDuyet",
+                            "value": null
+                        },
+                        {
+                            "key": "nhanDan",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayDuyetKt",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayDuyetBd",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "benBan",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "benMua",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayLapBd",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayLapKt",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayNhanBd",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "ngayNhanKt",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "soHoaDon",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "tinhChatHoaDon",
+                            "value": null,
+                            "disabled": true
+                        },
+                        {
+                            "key": "soHoaDon",
+                            "value": null,
+                            "disabled": true
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "7.Đồng bộ hóa đơn từ TCT theo khoảng thời gian nhất định.",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "doanhnghiepma",
+                        "value": "{{doanhnghiepma}}"
+                    },
+                    {
+                        "key": "userma",
+                        "value": "{{userma}}"
+                    }
+                ],
+                "url": {
+                    "raw": "{{host}}/api/hddv-tct/tct/sync-by-doanh-nghiep-login?from=01/03/2025&to=10/03/2025",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-tct",
+                        "tct",
+                        "sync-by-doanh-nghiep-login"
+                    ],
+                    "query": [
+                        {
+                            "key": "from",
+                            "value": "01/03/2025"
+                        },
+                        {
+                            "key": "to",
+                            "value": "10/03/2025"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "8 API import hóa đơn dạng xml",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "doanhnghiepma",
+                        "value": "{{doanhnghiepma}}"
+                    },
+                    {
+                        "key": "userma",
+                        "value": "{{userma}}"
+                    }
+                ],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "file",
+                            "type": "file",
+                            "src": "postman-cloud:///1f008944-0722-45d0-bba2-e7a5c5026741"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{host}}/api/hddv-hoa-don/file/import",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-hoa-don",
+                        "file",
+                        "import"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "9.API lấy thông tin bản thể hiện hóa đơn PDF",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{host}}/api/hddv-hoa-don/preview-base64/8de550f6-5e0a-4369-bad6-3a08c8572619",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "hddv-hoa-don",
+                        "preview-base64",
+                        "8de550f6-5e0a-4369-bad6-3a08c8572619"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "host",
+            "value": "https://dev-billstore.xcyber.vn",
+            "type": "string"
+        },
+        {
+            "key": "host_get_token",
+            "value": "https://stg-accounts-api.xcyber.vn",
+            "type": "string"
+        },
+        {
+            "key": "userma",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "usernameTCT",
+            "value": "0105232093-998",
+            "type": "string"
+        },
+        {
+            "key": "passwordTCT",
+            "value": "Cyber@20032025@",
+            "type": "string"
+        },
+        {
+            "key": "doanhnghiepma",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "token",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "username",
+            "value": "thuyptb22@yopmail.com",
+            "type": "string"
+        },
+        {
+            "key": "password",
+            "value": "123456Aa@",
+            "type": "string"
+        },
+        {
+            "key": "usernamema",
+            "value": ""
+        }
+    ]
+}
