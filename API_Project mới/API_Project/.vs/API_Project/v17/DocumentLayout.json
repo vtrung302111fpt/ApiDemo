@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Visual Studio\\Projects\\API_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\visual studio\\projects\\api_project\\api_project\\models\\billstoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\models\\billstoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\visual studio\\projects\\api_project\\api_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 30,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\appsettings.json",
-              "RelativeDocumentMoniker": "API_Project\\appsettings.json",
-              "ToolTip": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\appsettings.json",
-              "RelativeToolTip": "API_Project\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-26T07:28:28.639Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -60,12 +51,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BillStoreModel.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
+              "RelativeDocumentMoniker": "API_Project\\Models\\BillStoreModel.cs",
+              "ToolTip": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
+              "RelativeToolTip": "API_Project\\Models\\BillStoreModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:21:29.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "API_Project\\appsettings.json",
+              "ToolTip": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\appsettings.json",
+              "RelativeToolTip": "API_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T07:28:28.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\Program.cs",
               "RelativeDocumentMoniker": "API_Project\\Program.cs",
               "ToolTip": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\Program.cs",
               "RelativeToolTip": "API_Project\\Program.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAADwv2UAAAC0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T07:20:03.98Z",
               "EditorCaption": ""
