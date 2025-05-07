@@ -1,0 +1,142 @@
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.exe
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.csproj.AssemblyReference.cache
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.AssemblyInfoInputs.cache
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.AssemblyInfo.cs
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.MvcApplicationPartsAssemblyInfo.cs
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\appsettings.Development.json
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\appsettings.json
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.staticwebassets.endpoints.json
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.deps.json
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.runtimeconfig.json
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\API_Project.pdb
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\System.Web.Http.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\scopedcss\bundle\API_Project.styles.css
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.API_Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.API_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.API_Project.props
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_Project.props
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_Project.props
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Proj.40E948AF.Up2Date
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.dll
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\refint\API_Project.dll
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.pdb
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\API_Project.genruntimeconfig.cache
+D:\Visual Studio\Projects\API_Project\API_Project\obj\Debug\net8.0\ref\API_Project.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Visual Studio\Projects\API_Project\API_Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\appsettings.Development.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\appsettings.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.staticwebassets.endpoints.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.exe
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.deps.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.runtimeconfig.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\API_Project.pdb
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Azure.Core.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Azure.Identity.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.ClientModel.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.csproj.AssemblyReference.cache
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.AssemblyInfoInputs.cache
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.AssemblyInfo.cs
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.csproj.CoreCompileInputs.cache
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.MvcApplicationPartsAssemblyInfo.cs
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\scopedcss\bundle\API_Project.styles.css
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.API_Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.API_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.API_Project.props
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_Project.props
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_Project.props
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Proj.40E948AF.Up2Date
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\refint\API_Project.dll
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.pdb
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\API_Project.genruntimeconfig.cache
+D:\Repo Git\ApiDemo-main\API_Project mới\API_Project\API_Project\obj\Debug\net8.0\ref\API_Project.dll

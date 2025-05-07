@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\API_Project.csproj": {}
+    "D:\\Repo Git\\ApiDemo\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\API_Project.csproj": {
+    "D:\\Repo Git\\ApiDemo\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\API_Project.csproj",
+        "projectUniqueName": "D:\\Repo Git\\ApiDemo\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
         "projectName": "API_Project",
-        "projectPath": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\API_Project.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\Projects\\API_Project\\API_Project\\obj\\",
+        "projectPath": "D:\\Repo Git\\ApiDemo\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo Git\\ApiDemo\\API_Project mới\\API_Project\\API_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VS Shared components\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

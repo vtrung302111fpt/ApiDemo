@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>API Test</title>
+</head>
+<body>
+
+    <h2>Login</h2>
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <h2>Actions</h2>
+    <input id="doanhnghiepma" placeholder="Doanh nghiep ma">
+    <input id="userma" placeholder="User ma">
+    <br><br>
+    <button onclick="getUserInfo()">Get User Info</button>
+    <button onclick="getInvoiceList()">Get Invoice List</button>
+
+    <script>
+        let accessToken = ''; // Biến lưu token
+
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const res = await fetch('http://localhost:5194/api/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            });
+
+            const data = await res.json();
+            accessToken = data.access_token || ''; // Lưu access token vào biến
+            console.log('Token:', accessToken);
+        }
+
+        async function getUserInfo() {
+            if (!accessToken) {
+                console.error('Chưa login hoặc chưa có token');
+                return;
+            }
+
+            const res = await fetch('http://localhost:5194/api/get-user-info', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${accessToken}`
+                }
+            });
+
+            const data = await res.json();
+            console.log('User Info:', data); // In ra thông tin người dùng trả về từ API
+        }
+
+        async function getInvoiceList() {
+            if (!accessToken) {
+                console.error('Chưa login hoặc chưa có token');
+                return;
+            }
+
+            const doanhnghiepma = document.getElementById('doanhnghiepma').value;
+            const userma = document.getElementById('userma').value;
+
+            const res = await fetch('http://localhost:5194/api/invoices', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${accessToken}`,
+                    'doanhnghiepma': doanhnghiepma,
+                    'userma': userma
+                }
+            });
+
+            const data = await res.json();
+            console.log('Invoice List:', data); // In ra danh sách hóa đơn trả về từ API
+        }
+    </script>
+
+</body>
+</html>
