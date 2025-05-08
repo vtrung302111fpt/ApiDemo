@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj": {}
+    "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\API_Project.csproj": {}
   },
   "projects": {
-    "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj": {
+    "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\API_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
+        "projectUniqueName": "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\API_Project.csproj",
         "projectName": "API_Project",
-        "projectPath": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
+        "projectPath": "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\API_Project.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\obj\\",
+        "outputPath": "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS Shared components\\NuGetPackages"

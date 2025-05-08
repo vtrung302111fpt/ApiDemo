@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\",
+  "WorkspaceRootPath": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo-main\\apidemo-main\\api_project m\u1EDBi\\api_project\\api_project\\proxy\\proxyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\proxy\\proxyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo-main\\apidemo-main\\api_project m\u1EDBi\\api_project\\api_project\\endpoints\\invoicelistendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo\\api_project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng proxyrequest\\api_project\\api_project\\endpoints\\invoicelistendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\endpoints\\invoicelistendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo-main\\apidemo-main\\api_project m\u1EDBi\\api_project\\api_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo\\api_project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng proxyrequest\\api_project\\api_project\\proxy\\proxyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\proxy\\proxyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo\\api_project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng proxyrequest\\api_project\\api_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo-main\\apidemo-main\\api_project m\u1EDBi\\api_project\\api_project\\models\\billstoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|d:\\repo git\\apidemo\\api_project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng proxyrequest\\api_project\\api_project\\models\\billstoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61417309-39D4-41AD-BF14-D37F816AAF66}|API_Project\\API_Project.csproj|solutionrelative:api_project\\models\\billstoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,41 +26,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 30,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Program.cs",
-              "RelativeDocumentMoniker": "API_Project\\Program.cs",
-              "ToolTip": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Program.cs",
-              "RelativeToolTip": "API_Project\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:11:12.586Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BillStoreModel.cs",
-              "DocumentMoniker": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
               "RelativeDocumentMoniker": "API_Project\\Models\\BillStoreModel.cs",
-              "ToolTip": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Models\\BillStoreModel.cs",
               "RelativeToolTip": "API_Project\\Models\\BillStoreModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:44:12.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T07:44:12.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InvoiceListEndpoint.cs",
-              "DocumentMoniker": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Endpoints\\InvoiceListEndpoint.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Endpoints\\InvoiceListEndpoint.cs",
               "RelativeDocumentMoniker": "API_Project\\Endpoints\\InvoiceListEndpoint.cs",
-              "ToolTip": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Endpoints\\InvoiceListEndpoint.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Endpoints\\InvoiceListEndpoint.cs",
               "RelativeToolTip": "API_Project\\Endpoints\\InvoiceListEndpoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,20 +79,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProxyHelper.cs",
-              "DocumentMoniker": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Proxy\\ProxyHelper.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Proxy\\ProxyHelper.cs",
               "RelativeDocumentMoniker": "API_Project\\Proxy\\ProxyHelper.cs",
-              "ToolTip": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project m\u1EDBi\\API_Project\\API_Project\\Proxy\\ProxyHelper.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Proxy\\ProxyHelper.cs",
               "RelativeToolTip": "API_Project\\Proxy\\ProxyHelper.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAowFsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T06:49:51.668Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Program.cs",
+              "RelativeDocumentMoniker": "API_Project\\Program.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\API_Project, \u0111\u00E3 chuy\u1EC3n qua d\u00F9ng ProxyRequest\\API_Project\\API_Project\\Program.cs",
+              "RelativeToolTip": "API_Project\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:11:12.586Z"
             }
           ]
         }

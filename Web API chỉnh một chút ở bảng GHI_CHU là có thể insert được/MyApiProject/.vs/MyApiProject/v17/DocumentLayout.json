@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VS Commute\\MyApiProject\\",
+  "WorkspaceRootPath": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\billlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\services\\billlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\billlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\scheduledservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\vs commute\\myapiproject\\myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\models\\billlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\userinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|d:\\repo git\\apidemo\\web api ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng ghi_chu l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\myapiproject\\myapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F1D5E93-43F3-44C7-9992-DF9898459167}|MyApiProject\\MyApiProject.csproj|solutionrelative:myapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillListResponse.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\BillListResponse.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\BillListResponse.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:56:55.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -51,10 +68,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -70,36 +83,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MyApiProject\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MyApiProject\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T03:13:12.758Z",
+              "DocumentIndex": 2,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Models\\LoginResponse.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "MyApiProject\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T02:05:40.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "MyApiProject\\Models\\LoginResponse.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\LoginResponse.cs",
-              "RelativeToolTip": "MyApiProject\\Models\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:05:40.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ScheduledService.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
               "RelativeDocumentMoniker": "MyApiProject\\Services\\ScheduledService.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\ScheduledService.cs",
               "RelativeToolTip": "MyApiProject\\Services\\ScheduledService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,72 +109,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyApiProject\\Program.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Program.cs",
-              "RelativeToolTip": "MyApiProject\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T06:47:21.679Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyApiProject\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyApiProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T03:13:12.758Z"
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "MyApiProject\\Services\\LoginService.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
-              "RelativeToolTip": "MyApiProject\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T06:58:55.364Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 255,
-          "SelectedChildIndex": 2,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\appsettings.json",
-              "RelativeDocumentMoniker": "MyApiProject\\appsettings.json",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\appsettings.json",
-              "RelativeToolTip": "MyApiProject\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T07:26:15.767Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Program.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Program.cs",
+              "RelativeToolTip": "MyApiProject\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T06:47:21.679Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3fcb4aff-7d13-45e6-9fbc-5dfaab2cd50c",
+        "Display": 0,
+        "X": 44,
+        "Y": 135,
+        "Width": 718,
+        "Height": 606,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserInfoService.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\UserInfoService.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\UserInfoService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\UserInfoService.cs",
+              "ViewState": "AgIAAAAAAAAAZmZmZmb0vyoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:40:44.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BillListResponse.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
-              "RelativeDocumentMoniker": "MyApiProject\\Models\\BillListResponse.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Models\\BillListResponse.cs",
-              "RelativeToolTip": "MyApiProject\\Models\\BillListResponse.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BillListService.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\BillListService.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\BillListService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T03:38:30.445Z"
+              "WhenOpened": "2025-04-18T08:03:44.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BillListService.cs",
-              "DocumentMoniker": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
-              "RelativeDocumentMoniker": "MyApiProject\\Services\\BillListService.cs",
-              "ToolTip": "D:\\VS Commute\\MyApiProject\\MyApiProject\\Services\\BillListService.cs",
-              "RelativeToolTip": "MyApiProject\\Services\\BillListService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "MyApiProject\\Services\\LoginService.cs",
+              "ToolTip": "D:\\Repo Git\\ApiDemo\\Web API ch\u1EC9nh m\u1ED9t ch\u00FAt \u1EDF b\u1EA3ng GHI_CHU l\u00E0 c\u00F3 th\u1EC3 insert \u0111\u01B0\u1EE3c\\MyApiProject\\MyApiProject\\Services\\LoginService.cs",
+              "RelativeToolTip": "MyApiProject\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T08:03:44.654Z",
+              "WhenOpened": "2025-04-21T06:58:55.364Z",
               "EditorCaption": ""
             }
           ]

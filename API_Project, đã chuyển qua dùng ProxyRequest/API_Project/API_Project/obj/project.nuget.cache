@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "06kxbxj2QsE=",
+  "dgSpecHash": "zWUjzh4H03A=",
   "success": true,
-  "projectFilePath": "D:\\Repo Git\\ApiDemo-main\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
+  "projectFilePath": "D:\\Repo Git\\ApiDemo\\API_Project, đã chuyển qua dùng ProxyRequest\\API_Project\\API_Project\\API_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.3.0\\microsoft.aspnet.webapi.core.5.3.0.nupkg.sha512",
