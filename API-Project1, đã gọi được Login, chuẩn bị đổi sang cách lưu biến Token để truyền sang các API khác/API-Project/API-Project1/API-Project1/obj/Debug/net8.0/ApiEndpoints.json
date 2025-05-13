@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "InvoiceListController",
-    "Method": "GetInvoiceList",
+    "Method": "GetInvoiceListAsync",
     "RelativePath": "api/InvoiceList",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,9 +11,9 @@
     "EndpointName": "get-invoice-list"
   },
   {
-    "ContainingType": "API_Project1.Controllers.LoginController",
+    "ContainingType": "API_Project1.Controllers.TokenController",
     "Method": "GetToken",
-    "RelativePath": "api/Login/get-token",
+    "RelativePath": "api/Token/get-token",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

@@ -18,10 +18,10 @@
         }
       }
     },
-    "/api/Login/get-token": {
+    "/api/Token/get-token": {
       "post": {
         "tags": [
-          "Login"
+          "Token"
         ],
         "responses": {
           "200": {

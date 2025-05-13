@@ -1,4 +1,4 @@
-using API_Project1.Interfaces;
+﻿using API_Project1.Interfaces;
 using API_Project1.Services;
 using Microsoft.Extensions.Options;
 
@@ -20,11 +20,10 @@ builder.Services.AddSingleton(resolver =>
 });
 
 //builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddHttpClient(); // Nếu chưa có
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserInfoService, UserInfoService>();
-
-
-builder.Services.AddHttpClient();
+builder.Services.AddScoped<IInvoiceListService, InvoiceListService>();
 
 
 var app = builder.Build();
