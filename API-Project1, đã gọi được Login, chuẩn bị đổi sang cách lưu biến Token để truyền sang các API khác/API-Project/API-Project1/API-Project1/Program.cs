@@ -13,7 +13,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<LoginConfig>(builder.Configuration.GetSection("Login"));
 builder.Services.AddSingleton(resolver =>
-    resolver.GetRequiredService<IOptions<LoginConfig>>().Value);
+{
+    var config = resolver.GetRequiredService<IConfiguration>();
+    var loginConfig = config.GetSection("Login").Get<LoginConfig>();
+    return loginConfig;
+});
 
 //builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<ITokenService, TokenService>();

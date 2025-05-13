@@ -8,7 +8,7 @@ namespace API_Project1.Interfaces
         //bool IsTokenExpired();
         //void SetToken(string accessToken, int expiresInSeconds);
 
-        //Task<string> GetAccessTokenAsync();
+        Task<string> GetAccessTokenAsync();
         Task<string> GetFullLoginResponseAsync();
     }
 }

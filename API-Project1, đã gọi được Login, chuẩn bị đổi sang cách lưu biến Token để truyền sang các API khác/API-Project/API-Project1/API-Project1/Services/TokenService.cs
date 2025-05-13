@@ -4,11 +4,46 @@ using API_Project1.Interfaces;
 
 namespace API_Project1.Services
 {
-    public class TokenService(HttpClient httpClient, LoginConfig loginConfig) : ITokenService
+    public class TokenService : ITokenService
     {
-        private readonly HttpClient _httpClient = httpClient;
-        private readonly LoginConfig _loginConfig = loginConfig;
+        private readonly HttpClient _httpClient;
+        private readonly LoginConfig _loginConfig;
 
+        private string _accessToken;
+        private DateTime _expiryTime;
+
+        public TokenService(HttpClient httpClient, LoginConfig loginConfig)
+        {
+            _httpClient = httpClient;
+            _loginConfig = loginConfig;
+        }
+
+        public async Task<string> GetAccessTokenAsync()
+        {
+            if(string.IsNullOrEmpty(_accessToken) || DateTime.UtcNow > _expiryTime)
+            {
+                await LoginAsync();
+            }
+            return _accessToken;
+        }
+
+        public async Task<string> GetFullLoginResponseAsync()
+        {
+            var json = await CallLoginApiAsync();
+            return json.RootElement.ToString();
+        }
+
+        private async Task LoginAsync()
+        {
+            var json = await CallLoginApiAsync();
+            var root = json.RootElement;
+
+            _accessToken = root.GetProperty("access_token").GetString();
+            var expiresIn = root.GetProperty("expires_in").GetInt32();
+
+            _expiryTime = DateTime.UtcNow.AddSeconds(expiresIn - 30);
+
+        }
         private async Task<JsonDocument> CallLoginApiAsync()
         {
             var loginUrl = "https://stg-accounts-api.xcyber.vn/management/cyberid/login";
@@ -30,15 +65,7 @@ namespace API_Project1.Services
                 throw new Exception($"Failed to login: {response.StatusCode}\nResponse: {responseBody}");
             }
 
-            var tokenJson = await response.Content.ReadAsStringAsync();
-            return JsonDocument.Parse(tokenJson);
-        }
-
-
-        public async Task<string> GetFullLoginResponseAsync()
-        {
-            var json = await CallLoginApiAsync();
-            return json.RootElement.ToString();
+            return JsonDocument.Parse(responseBody);
         }
     }
 }

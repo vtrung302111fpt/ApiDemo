@@ -10,14 +10,11 @@ namespace API_Project1.Controllers
     [Route("api/[controller]")]
     public class UserInfoController : ControllerBase
     {
-        private readonly ILoginService _loginService;
         private readonly IUserInfoService _userInfoService;
 
-
-        public UserInfoController(IUserInfoService userInfoService, ILoginService loginService)
+        public UserInfoController(IUserInfoService userInfoService)
         {
             _userInfoService = userInfoService;
-            _loginService = loginService;
         }
 
         [HttpGet("get-user-info")]
@@ -25,16 +22,8 @@ namespace API_Project1.Controllers
         {
             try
             {
-                var accessToken = await _loginService.GetAccessTokenAsync();
-                // GetAccessTokenAsync sẽ check nếu token đã có sẵn, chưa hết hạn => dùng lại.
-                
-
-
-                Console.WriteLine("Access token: " + accessToken);
-
-                var userInfo = await _userInfoService.GetUserInfoAsync(accessToken);
-
-                return Content(userInfo, "application/json");
+                var content = await _userInfoService.GetUserInfoAsync();
+                return Content(content, "application/json");
             }
             catch (Exception ex)
             {
@@ -42,4 +31,5 @@ namespace API_Project1.Controllers
             }
         }
     }
+
 }
