@@ -25,20 +25,21 @@ namespace API_Project1.Services
         {
 
             var accessToken = await _tokenService.GetAccessTokenAsync();
-            var (userMa, doanhNghiepMa) = await _userInfoService.GetUserAndCompanyCodeAsync();
+            var (maNguoiDung, maDoanhNghiep) = await _userInfoService.GetUserAndCompanyCodeAsync();
+            //lấy kết quả từ hàm GetUserAndCompanyCodeAsync(), lưu vào userMa và doanhNghiepMa
 
 
             var request = new HttpRequestMessage(HttpMethod.Get, "https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page=0&pageSize=10&size=10&trangThaiPheDuyet");
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-            request.Headers.Add("doanhnghiepma", doanhNghiepMa);
-            request.Headers.Add("userma", userMa);
+            request.Headers.Add("doanhnghiepma", maDoanhNghiep);
+            request.Headers.Add("userma", maNguoiDung);
             request.Headers.AcceptCharset.Add(
                 new StringWithQualityHeaderValue("utf-8")
             );
 
             var content = await _httpClient.SendAsync(request);
             var response = await content.Content.ReadAsStringAsync();
-            Console.WriteLine($"Header doanhnghiepma: {doanhNghiepMa}, userma: {userMa}");
+            Console.WriteLine($"Header doanhnghiepma: {maDoanhNghiep}, userma: {maNguoiDung}");
 
 
             if (!content.IsSuccessStatusCode)
@@ -47,17 +48,6 @@ namespace API_Project1.Services
             }
 
             return response;
-
-            //var invoiceListDoc = JsonDocument.Parse(content);
-            //var data = invoiceListDoc.RootElement.GetProperty("data");
-            //return data;
-
-            //var invoiceListJson = await invoiceListResponse.Content.ReadAsStringAsync();
-            //var invoiceListDoc = JsonDocument.Parse(invoiceListJson);
-
-            //// Lọc phần "data" trong response
-            //var data = invoiceListDoc.RootElement.GetProperty("data");
-            //return Ok(data);  // Trả về phần data của invoice list
         }
 
     }

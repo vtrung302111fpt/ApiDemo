@@ -4,6 +4,18 @@ using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .WithOrigins("http://127.0.0.1:5500") // hoặc "http://localhost:5500"
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -34,7 +46,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

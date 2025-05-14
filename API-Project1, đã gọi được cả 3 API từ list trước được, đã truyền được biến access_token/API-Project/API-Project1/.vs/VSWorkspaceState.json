@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API-Project1",
+    "\\API-Project1\\bin\\Release",
+    "\\API-Project1\\bin\\Release\\net8.0",
+    "\\API-Project1\\bin\\Release\\net8.0\\publish",
+    "\\API-Project1\\bin\\Release\\net8.0\\publish\\logs",
+    "\\API-Project1\\Controllers",
+    "\\API-Project1\\Frontend"
+  ],
+  "SelectedNode": "\\API-Project1\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
