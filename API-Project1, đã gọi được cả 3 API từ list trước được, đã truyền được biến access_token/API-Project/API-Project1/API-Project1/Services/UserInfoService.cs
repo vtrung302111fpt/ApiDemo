@@ -21,8 +21,9 @@ namespace API_Project1.Services
             _httpClient = httpClient;
         }
 
-        private async Task FetchUserAndCompanyInfoAsync()
-            //hàm lấy mã người dùng và mã doanh nghiệp
+
+
+        private async Task FetchUserAndCompanyInfoAsync()                               //hàm lấy mã người dùng và mã doanh nghiệp
         {
             var json = await GetUserInfoAsync();
             var root = JsonDocument.Parse(json).RootElement;
@@ -32,29 +33,31 @@ namespace API_Project1.Services
             _doanhNghiepMa = root.GetProperty("data").GetProperty("hddvDoanhNghiepReponse").GetProperty("maDoanhNghiep").GetString();
             Console.WriteLine($"Fetched: UserMa = {_userMa}, DoanhNghiepMa = {_doanhNghiepMa}");
         }
+
+
         public async Task<(string MaNguoiDung, string MaDoanhNghiep)> GetUserAndCompanyCodeAsync()
         {
-            if (string.IsNullOrEmpty(_doanhNghiepMa) || string.IsNullOrEmpty(_userMa))
-            //kiểm tra xem có mã chưa, chưa thì gọi FetchUserAndCompanyInfoAsync
+            if (string.IsNullOrEmpty(_doanhNghiepMa) || string.IsNullOrEmpty(_userMa))  //kiểm tra xem có mã chưa, chưa thì gọi FetchUserAndCompanyInfoAsync
             {
                 await FetchUserAndCompanyInfoAsync();
             }
             return (_userMa, _doanhNghiepMa);
         }
+
+
+
+
         public async Task<string> GetUserInfoAsync()
         {
-            var accessToken = await _tokenService.GetAccessTokenAsync();
-            //lấy access token từ hàm GetAccessTokenAsync
+            var accessToken = await _tokenService.GetAccessTokenAsync();                //lấy access token từ hàm GetAccessTokenAsync
 
             var request = new HttpRequestMessage(HttpMethod.Get, "https://dev-billstore.xcyber.vn/api/hddv/nguoidung/get-user-info");
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
             //tạo request gọi đến API trên
 
 
-            var response = await _httpClient.SendAsync(request);
-            //gửi request kia đi, gán kết quả vào response
-            var content = await response.Content.ReadAsStringAsync();
-            //chuyển response ở trên thành string
+            var response = await _httpClient.SendAsync(request);                        //gửi request kia đi, gán kết quả vào response
+            var content = await response.Content.ReadAsStringAsync();                   //chuyển response ở trên thành string
 
             if (!response.IsSuccessStatusCode)
             {
@@ -64,6 +67,4 @@ namespace API_Project1.Services
             return content;
         }
     }
-
-
 }

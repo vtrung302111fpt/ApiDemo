@@ -26,7 +26,7 @@ namespace API_Project1.Services
 
             var accessToken = await _tokenService.GetAccessTokenAsync();
             var (maNguoiDung, maDoanhNghiep) = await _userInfoService.GetUserAndCompanyCodeAsync();
-            //lấy kết quả từ hàm GetUserAndCompanyCodeAsync(), lưu vào userMa và doanhNghiepMa
+            //lấy response từ hàm GetUserAndCompanyCodeAsync(), lưu vào userMa và doanhNghiepMa
 
 
             var request = new HttpRequestMessage(HttpMethod.Get, "https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page=0&pageSize=10&size=10&trangThaiPheDuyet");
@@ -39,7 +39,9 @@ namespace API_Project1.Services
 
             var content = await _httpClient.SendAsync(request);
             var response = await content.Content.ReadAsStringAsync();
-            Console.WriteLine($"Header doanhnghiepma: {maDoanhNghiep}, userma: {maNguoiDung}");
+
+
+            //Console.WriteLine($"Header doanhnghiepma: {maDoanhNghiep}, userma: {maNguoiDung}");
 
 
             if (!content.IsSuccessStatusCode)
