@@ -86,7 +86,6 @@ namespace API_Project1.Services
             //lấy response từ hàm GetUserAndCompanyCodeAsync(), lưu vào userMa và doanhNghiepMa
 
 
-            //var request = new HttpRequestMessage(HttpMethod.Get, "https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page=0&pageSize=10&size=10&trangThaiPheDuyet");
             var request = new HttpRequestMessage(HttpMethod.Get,$"https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page={currentPage}&pageSize=10&size=10&trangThaiPheDuyet");
 
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);

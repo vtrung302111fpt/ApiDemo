@@ -1,4 +1,5 @@
-﻿using API_Project1.Interfaces;
+﻿using System.Text.Json;
+using API_Project1.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +22,33 @@ namespace API_Project1.Controllers
             try
             {
                 var content = await _invoiceDetailService.GetInvoiceDetailAsync();
-                return Content(content, "application/json");
+                //return Content(content, "application/json");
+
+
+
+                using var doc = JsonDocument.Parse(content);
+                var root = doc.RootElement;
+
+                if(root.ValueKind != JsonValueKind.Array)                   //kiểm tra dạng của
+                {
+                    return BadRequest("Dữ liệu không hợp lệ, không phải mảng JSON");
+                }
+
+                var dataList = new List<JsonElement>();
+
+                foreach (var element in root.EnumerateArray())
+                {
+                    if (element.TryGetProperty("data", out var dataElement))
+                    {
+                        dataList.Add(dataElement.Clone());
+                    }    
+                }
+
+                var finalJson = JsonSerializer.Serialize(dataList, new JsonSerializerOptions { WriteIndented = true });
+                return Content(finalJson, "application/json");
+
+
+
             }
             catch (Exception ex)
             {

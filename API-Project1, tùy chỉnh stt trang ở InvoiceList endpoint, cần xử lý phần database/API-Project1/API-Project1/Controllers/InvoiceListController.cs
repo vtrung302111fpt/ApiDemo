@@ -27,9 +27,6 @@ public class InvoiceListController : ControllerBase
             var data = root.GetProperty("data");
             return Ok(data);
 
-
-
-
             //return Content(raw, "application/json");                            //gọi hết full response
         }
         catch (Exception ex)
@@ -38,9 +35,6 @@ public class InvoiceListController : ControllerBase
         }
 
     }
-
-
-
 
     //public async Task<IActionResult> GetInvoiceListAsync([FromQuery] int currentPage = 0)
     //{
