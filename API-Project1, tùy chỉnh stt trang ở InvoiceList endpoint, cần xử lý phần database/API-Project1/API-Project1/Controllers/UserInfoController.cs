@@ -10,9 +10,9 @@ namespace API_Project1.Controllers
     [Route("api/[controller]")]
     public class UserInfoController : ControllerBase
     {
-        private readonly IUserInfoService _userInfoService;
+        private readonly InterfaceUserInfo _userInfoService;
 
-        public UserInfoController(IUserInfoService userInfoService)
+        public UserInfoController(InterfaceUserInfo userInfoService)
         {
             _userInfoService = userInfoService;
         }

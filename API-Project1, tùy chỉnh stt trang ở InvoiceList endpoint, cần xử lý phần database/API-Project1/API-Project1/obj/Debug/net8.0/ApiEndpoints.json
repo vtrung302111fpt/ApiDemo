@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "API_Project1.Controllers.InvoiceDetailController",
+    "Method": "GetInvoiceDetailAsync",
+    "RelativePath": "api/InvoiceDetail/get-invoice-detail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InvoiceListController",
     "Method": "GetInvoiceListAsync",
     "RelativePath": "api/InvoiceList",

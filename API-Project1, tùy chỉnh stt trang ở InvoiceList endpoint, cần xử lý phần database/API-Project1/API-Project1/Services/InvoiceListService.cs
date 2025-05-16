@@ -7,14 +7,13 @@ using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace API_Project1.Services
 {
-    public class InvoiceListService : IInvoiceListService
+    public class InvoiceListService : InterfaceInvoiceList
     {
         private readonly HttpClient _httpClient;
-        private readonly ITokenService _tokenService;
-        private readonly IUserInfoService _userInfoService;
+        private readonly InterfaceToken _tokenService;
+        private readonly InterfaceUserInfo _userInfoService;
 
-
-        public InvoiceListService(IHttpClientFactory httpClientFactory, ITokenService tokenService, IUserInfoService userInfoService)
+        public InvoiceListService(IHttpClientFactory httpClientFactory, InterfaceToken tokenService, InterfaceUserInfo userInfoService)
 
         {
             _httpClient = httpClientFactory.CreateClient();
@@ -26,25 +25,21 @@ namespace API_Project1.Services
         {
             int currentPage = 0;
 
-            // Lấy lần đầu tiên để biết totalPage
-            var firstResponse = await GetInvoiceListAsync(currentPage);
+            var firstResponse = await GetInvoiceListAsync(currentPage);                              // Lấy lần đầu tiên để biết totalPage
             using var firstDoc = JsonDocument.Parse(firstResponse);
             var root = firstDoc.RootElement;
 
             int totalPage = root.GetProperty("totalPage").GetInt32();
 
-            // Xử lý items trang đầu tiên
-            var items = root.GetProperty("items");
+            var items = root.GetProperty("items");                                                  // Xử lý items trang đầu tiên
             Console.WriteLine($"Trang {currentPage + 1}/{totalPage}");
             foreach (var item in items.EnumerateArray())
             {
                 // xử lý từng item
             }
-
             currentPage++;
 
-            // Vòng lặp lấy các trang còn lại
-            while (currentPage < totalPage)
+            while (currentPage < totalPage)                                                         // Vòng lặp lấy các trang còn lại
             {
                 var response = await GetInvoiceListAsync(currentPage);
                 using var jsonDoc = JsonDocument.Parse(response);
@@ -56,12 +51,34 @@ namespace API_Project1.Services
                 {
                     // xử lý từng item
                 }
-
                 currentPage++;
             }
         }
 
-        public async Task<string> GetInvoiceListAsync(int currentPage)
+        public async Task<List<string>> GetMaHoaDonListAsync(int currentPage = 0)                                      //hàm async (bất đồng bộ) trả về list string chứa các mã hóa đơn
+        {
+            var maHoaDonList = new List<string>();                                          //list rỗng để chứa các mã hóa đơn
+            var json = await GetInvoiceListAsync(currentPage);                              //đợi các mã ở trang thứ currentPage, lưu response dạng chuỗi JSON vào biến 'json'
+            using var doc = JsonDocument.Parse(json);                                       //phân tích json thành JsonDocument rồi truy cập nội dung chính của JSON
+            var root = doc.RootElement;
+
+            var dataArray = root.GetProperty("data");                                       //truy cập vào mảng dữ liệu chính trong JSON, property "data"
+            foreach (var item in dataArray.EnumerateArray())                                //duyệt qua từng item trong data
+            {
+                if (item.TryGetProperty("maHoaDon", out var maHoaDonElement))               //kiểm tra trường maHoaDon, nếu có thì gán vào biến 'maHoaDonElement'
+                {
+                    string maHoaDon = maHoaDonElement.GetString();                          //lấy giá trị string của maHoaDon, 
+                    if (!string.IsNullOrEmpty(maHoaDon))
+                    {
+                        maHoaDonList.Add(maHoaDon);                                         //giá trị không rỗng thì thêm vào danh sách maHoaDonList
+                    }
+                }
+            }
+
+            return maHoaDonList;
+        }
+
+        public async Task<string> GetInvoiceListAsync(int currentPage = 0)
         {
 
             var accessToken = await _tokenService.GetAccessTokenAsync();

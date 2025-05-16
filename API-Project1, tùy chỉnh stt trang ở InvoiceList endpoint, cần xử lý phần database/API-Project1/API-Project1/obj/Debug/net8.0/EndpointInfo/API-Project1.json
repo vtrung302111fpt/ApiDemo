@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/InvoiceDetail/get-invoice-detail": {
+      "get": {
+        "tags": [
+          "InvoiceDetail"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/InvoiceList": {
       "get": {
         "tags": [
