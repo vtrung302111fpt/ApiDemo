@@ -8,8 +8,8 @@ namespace API_Project1.Controllers
     [Route("api/[controller]")]
     public class TokenController : ControllerBase
     {
-        private readonly InterfaceToken _tokenService;
-        public TokenController(InterfaceToken tokenService)
+        private readonly ITokenService _tokenService;
+        public TokenController(ITokenService tokenService)
         {
             _tokenService = tokenService;
             //gán interface của ITokenService

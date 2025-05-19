@@ -8,9 +8,9 @@ using API_Project1.Interfaces; // Import interface của LoginService
 [Route("api/[controller]")]
 public class InvoiceListController : ControllerBase
 {
-    private readonly InterfaceInvoiceList _invoiceListService;
+    private readonly IInvoiceListService _invoiceListService;
 
-    public InvoiceListController(InterfaceInvoiceList invoiceListService)
+    public InvoiceListController(IInvoiceListService invoiceListService)
     {
         _invoiceListService = invoiceListService;
     }

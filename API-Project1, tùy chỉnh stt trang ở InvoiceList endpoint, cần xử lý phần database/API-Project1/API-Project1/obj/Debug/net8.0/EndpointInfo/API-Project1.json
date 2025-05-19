@@ -10,6 +10,17 @@
         "tags": [
           "InvoiceDetail"
         ],
+        "parameters": [
+          {
+            "name": "currentPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

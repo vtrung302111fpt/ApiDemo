@@ -33,10 +33,10 @@ builder.Services.AddSingleton(resolver =>
 
 //builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddHttpClient(); // Nếu chưa có
-builder.Services.AddScoped<InterfaceToken, TokenService>();
-builder.Services.AddScoped<InterfaceUserInfo, UserInfoService>();
-builder.Services.AddScoped<InterfaceInvoiceList, InvoiceListService>();
-builder.Services.AddScoped<InterfaceInvoiceDetail, InvoiceDetailService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IUserInfoService, UserInfoService>();
+builder.Services.AddScoped<IInvoiceListService, InvoiceListService>();
+builder.Services.AddScoped<IInvoiceDetailService, InvoiceDetailService>();
 
 
 var app = builder.Build();

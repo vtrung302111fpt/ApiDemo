@@ -6,15 +6,15 @@ using API_Project1.Interfaces;
 
 namespace API_Project1.Services
 {
-    public class UserInfoService : InterfaceUserInfo
+    public class UserInfoService : IUserInfoService
     {
-        private readonly InterfaceToken _tokenService;
+        private readonly ITokenService _tokenService;
         private readonly HttpClient _httpClient;
 
         private string _doanhNghiepMa;
         private string _userMa;
 
-        public UserInfoService(InterfaceToken tokenService, HttpClient httpClient, IHttpClientFactory httpClientFactory)
+        public UserInfoService(ITokenService tokenService, HttpClient httpClient, IHttpClientFactory httpClientFactory)
         {
             _tokenService = tokenService;
             //_httpClient = httpClientFactory.CreateClient();

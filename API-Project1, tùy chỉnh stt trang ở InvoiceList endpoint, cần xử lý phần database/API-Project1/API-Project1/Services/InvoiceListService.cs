@@ -1,25 +1,20 @@
 ﻿using System.Net.Http.Headers;
 using System.Text.Json;
 using API_Project1.Interfaces;
+using API_Project1.Models;
+
 //using API_Project1.Responses;k
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.Data.SqlClient;
 
 
 namespace API_Project1.Services
 {
-    public class InvoiceListService : InterfaceInvoiceList
+    public class InvoiceListService(IHttpClientFactory httpClientFactory, ITokenService tokenService, IUserInfoService userInfoService) : IInvoiceListService
     {
-        private readonly HttpClient _httpClient;
-        private readonly InterfaceToken _tokenService;
-        private readonly InterfaceUserInfo _userInfoService;
-
-        public InvoiceListService(IHttpClientFactory httpClientFactory, InterfaceToken tokenService, InterfaceUserInfo userInfoService)
-
-        {
-            _httpClient = httpClientFactory.CreateClient();
-            _tokenService = tokenService;
-            _userInfoService = userInfoService;
-        }
+        private readonly HttpClient _httpClient = httpClientFactory.CreateClient();
+        private readonly ITokenService _tokenService = tokenService;
+        private readonly IUserInfoService _userInfoService = userInfoService;
 
         public async Task GetAllDataAsync()
         {
@@ -55,7 +50,7 @@ namespace API_Project1.Services
             }
         }
 
-        public async Task<List<string>> GetMaHoaDonListAsync(int currentPage = 0)                                      //hàm async (bất đồng bộ) trả về list string chứa các mã hóa đơn
+        public async Task<List<string>> GetMaHoaDonListAsync(int currentPage = 0)           //hàm async (bất đồng bộ) trả về list string chứa các mã hóa đơn
         {
             var maHoaDonList = new List<string>();                                          //list rỗng để chứa các mã hóa đơn
             var json = await GetInvoiceListAsync(currentPage);                              //đợi các mã ở trang thứ currentPage, lưu response dạng chuỗi JSON vào biến 'json'
@@ -74,7 +69,6 @@ namespace API_Project1.Services
                     }
                 }
             }
-
             return maHoaDonList;
         }
 
@@ -86,7 +80,7 @@ namespace API_Project1.Services
             //lấy response từ hàm GetUserAndCompanyCodeAsync(), lưu vào userMa và doanhNghiepMa
 
 
-            var request = new HttpRequestMessage(HttpMethod.Get,$"https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page={currentPage}&pageSize=10&size=10&trangThaiPheDuyet");
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://dev-billstore.xcyber.vn/api/hddv-hoa-don/get-list?current=1&page={currentPage}&pageSize=10&size=10&trangThaiPheDuyet");
 
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
             request.Headers.Add("doanhnghiepma", maDoanhNghiep);
@@ -107,8 +101,19 @@ namespace API_Project1.Services
                 throw new Exception($"Request failed: {content.StatusCode}\n{content}");
             }
 
-            return response;
-        }
+            try
+            {
+                using var conn = new SqlConnection("Server=localhost\\SQLEXPRESS; Database=BILL_STORE; Trusted_Connection=True");
+                conn.Open();
+                Console.WriteLine("✅ Kết nối SQL thành công.");
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine("❌ Lỗi kết nối SQL: " + ex.Message);
+            }
 
+            return response;
+
+        }   
     }
 }

@@ -9,19 +9,19 @@ namespace API_Project1.Controllers
     [ApiController]
     public class InvoiceDetailController : ControllerBase
     {
-        private readonly InterfaceInvoiceDetail _invoiceDetailService;
+        private readonly IInvoiceDetailService _invoiceDetailService;
         
-        public InvoiceDetailController(InterfaceInvoiceDetail invoiceDetailService)
+        public InvoiceDetailController(IInvoiceDetailService invoiceDetailService)
         {
             _invoiceDetailService = invoiceDetailService;
         }
 
         [HttpGet("get-invoice-detail")]
-        public async Task<IActionResult> GetInvoiceDetailAsync()
+        public async Task<IActionResult> GetInvoiceDetailAsync([FromQuery]int currentPage = 0)
         {
             try
             {
-                var content = await _invoiceDetailService.GetInvoiceDetailAsync();
+                var content = await _invoiceDetailService.GetInvoiceDetailAsync(currentPage);
                 //return Content(content, "application/json");
 
 

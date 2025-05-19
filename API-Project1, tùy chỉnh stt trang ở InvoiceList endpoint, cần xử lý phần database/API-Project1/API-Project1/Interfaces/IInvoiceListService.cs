@@ -2,6 +2,7 @@
 {
     public interface IInvoiceListService
     {
-        Task<string> GetInvoiceListAsync(int curentPage);
+        Task<string> GetInvoiceListAsync(int currentPage);
+        Task<List<string>> GetMaHoaDonListAsync(int currentPage);
     }
 }

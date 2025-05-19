@@ -7,13 +7,13 @@ using API_Project1.Interfaces;
 
 namespace API_Project1.Services
 {
-    public class InvoiceDetailService: InterfaceInvoiceDetail
+    public class InvoiceDetailService: IInvoiceDetailService
     {
-        private readonly InterfaceToken _tokenService;
+        private readonly ITokenService _tokenService;
         private readonly HttpClient _httpClient;
-        private readonly InterfaceInvoiceList _interfaceInvoiceList;
+        private readonly IInvoiceListService _interfaceInvoiceList;
 
-        public InvoiceDetailService(InterfaceToken tokenService, HttpClient httpClient, InterfaceInvoiceList invoiceList)
+        public InvoiceDetailService(ITokenService tokenService, HttpClient httpClient, IInvoiceListService invoiceList)
         {
             _tokenService = tokenService;
             _httpClient = httpClient;
@@ -21,11 +21,11 @@ namespace API_Project1.Services
         }
 
 
-        public async Task<string> GetInvoiceDetailAsync()
+        public async Task<string> GetInvoiceDetailAsync(int currentPage = 0)
         {
             var accessToken = await _tokenService.GetAccessTokenAsync();
 
-            var maHoaDonList = await _interfaceInvoiceList.GetMaHoaDonListAsync(0);                      //lây danh sách mã hóa đơn ở trang 0, trả về List<string> gồm các maHoaDon
+            var maHoaDonList = await _interfaceInvoiceList.GetMaHoaDonListAsync(currentPage);           //lây danh sách mã hóa đơn, truyền currentPage vào như tham số vào hàm, trả về List<string> gồm các maHoaDon, user có thể truyền vào số trang để điều khiền dữ liệu cần lấy
 
             if (maHoaDonList == null || !maHoaDonList.Any()) 
             {

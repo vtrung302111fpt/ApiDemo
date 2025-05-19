@@ -4,7 +4,7 @@ using API_Project1.Interfaces;
 
 namespace API_Project1.Services
 {
-    public class TokenService : InterfaceToken
+    public class TokenService : ITokenService
     {
         private readonly HttpClient _httpClient;
         private readonly LoginConfig _loginConfig;
