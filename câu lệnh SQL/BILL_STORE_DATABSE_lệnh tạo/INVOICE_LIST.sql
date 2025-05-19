@@ -1,0 +1,22 @@
+CREATE TABLE INVOICE_LIST (
+    id NUMERIC(18, 0) NOT NULL,
+    maHoaDon NVARCHAR(50) NOT NULL,
+    maLichSuFile NVARCHAR(50) NOT NULL,
+    soHoaDon NVARCHAR(50) NOT NULL,
+    loaiHoaDon NUMERIC(18, 0) NOT NULL,
+    tenNCC NVARCHAR(50) NOT NULL,
+    mstNCC NVARCHAR(50) NOT NULL,
+    tongTien NVARCHAR(50) NOT NULL,
+    tienTruocThue NVARCHAR(50) NOT NULL,
+    tienThue NVARCHAR(50) NOT NULL,
+    nhanHoaDon NVARCHAR(50) NULL,
+    trangThaiPheDuyet NUMERIC(18, 0) NOT NULL,
+    trangThaiHoaDon NUMERIC(18, 0) NOT NULL,
+    soDonHang NVARCHAR(50) NULL,
+    kiHieuMauSoHoaDon NUMERIC(18, 0) NOT NULL,
+    kiHieuHoaDon NVARCHAR(50) NOT NULL,
+    tinhChatHoaDon NUMERIC(18, 0) NOT NULL,
+    ngayLap DATETIME NOT NULL,
+    ngayNhan DATETIME NOT NULL,
+    phuongThucNhap NUMERIC(18, 0) NOT NULL
+);
