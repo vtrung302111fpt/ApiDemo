@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "API_Project.Endpoints.UserInfoEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserInfoEndpoint\u003Eb__0_0",
+    "RelativePath": "api/get-user-info",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Project.Endpoints.TokenEndpoint\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003CMapTokenEndpoint\u003Eb__0",
+    "RelativePath": "api/token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

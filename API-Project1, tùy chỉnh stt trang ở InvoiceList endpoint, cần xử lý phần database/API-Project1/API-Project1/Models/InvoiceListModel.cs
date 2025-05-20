@@ -28,8 +28,8 @@ namespace API_Project1.Models
         public int kiHieuMauSoHoaDon { get; set; }
         public string kiHieuHoaDon { get; set; }
         public int tinhChatHoaDon { get; set; }
-        public string ngayLap { get; set; }
-        public string ngayNhan { get; set; }
+        public string? ngayLap { get; set; }
+        public string? ngayNhan { get; set; }
 
         public void OnDeserialize(JsonElement element)
         {
@@ -42,18 +42,16 @@ namespace API_Project1.Models
         public GhiChuModel ghiChu { get; set; }
     }
 
-
-
     public class GhiChuModel
     {
         public int ghiChu_id { get; set; }
 
         public int checkTrangThaiXuLy { get; set; }
-        public int checkTrangThaiHoaDon { get; set; }
+        public int? checkTrangThaiHoaDon { get; set; }
         public int? checkTenNguoiMua { get; set; }
         public int? checkDiaChiNguoiMua { get; set; }
         public int? checkMstNguoiMua { get; set; }
-        public int checkHoaDonKyDienTu { get; set; }
+        public int? checkHoaDonKyDienTu { get; set; }
     }
 
 }

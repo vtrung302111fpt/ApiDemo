@@ -5865,23 +5865,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "D:\\VS Shared components\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo Git\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
+      "projectUniqueName": "D:\\Visual Studio\\ApiDemo-main\\ApiDemo\\API_PROJECT, đã truyền được hết data vào database\\API_Project\\API_Project\\API_Project.csproj",
       "projectName": "API_Project",
-      "projectPath": "D:\\Repo Git\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\API_Project.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo Git\\ApiDemo-main\\API_Project mới\\API_Project\\API_Project\\obj\\",
+      "projectPath": "D:\\Visual Studio\\ApiDemo-main\\ApiDemo\\API_PROJECT, đã truyền được hết data vào database\\API_Project\\API_Project\\API_Project.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio\\ApiDemo-main\\ApiDemo\\API_PROJECT, đã truyền được hết data vào database\\API_Project\\API_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VS Shared components\\NuGetPackages"
+        "D:\\Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
