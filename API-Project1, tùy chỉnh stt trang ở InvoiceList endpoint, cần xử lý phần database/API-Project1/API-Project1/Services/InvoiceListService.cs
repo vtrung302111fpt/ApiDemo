@@ -98,7 +98,7 @@ namespace API_Project1.Services
             return response;
 
         }   
-        public async Task SaveToDatabaseAsync(List<InvoiceListDataModel> invoices)
+        public async Task SaveListToDatabaseAsync(List<InvoiceListDataModel> invoices)
         {
             var connectionString = "Server=localhost\\SQLEXPRESS; Database=BILL_STORE; Trusted_Connection=True";
 

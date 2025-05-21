@@ -30,7 +30,7 @@ public class InvoiceListController : ControllerBase
             // Gọi hàm ConvertJsonToInvoiceList từ service
             List<InvoiceListDataModel> invoices = _invoiceListService.ConvertJsonToInvoiceList(data);
 
-            await _invoiceListService.SaveToDatabaseAsync(invoices);
+            await _invoiceListService.SaveListToDatabaseAsync(invoices);
 
             return Ok(data);
         }
