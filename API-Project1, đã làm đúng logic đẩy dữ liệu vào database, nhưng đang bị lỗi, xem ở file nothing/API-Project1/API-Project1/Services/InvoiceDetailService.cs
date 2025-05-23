@@ -183,8 +183,6 @@ namespace API_Project1.Services
                     insertHoaDonDetail.Parameters.AddWithValue("@KiHieuMauSoHoaDon", invoiceDetail.kiHieuMauSoHoaDon);
                     insertHoaDonDetail.Parameters.AddWithValue("@SoHoaDon", invoiceDetail.soHoaDon);
 
-                    insertHoaDonDetail.Parameters.AddWithValue("@NgayLap", (object?)invoiceDetail.ngayLap ?? DBNull.Value);
-                  
                     insertHoaDonDetail.Parameters.AddWithValue("@HoaDonDanhChoKhuPhiThueQuan", (object?)invoiceDetail.hoaDonDanhChoKhuPhiThueQuan ?? DBNull.Value);
                     insertHoaDonDetail.Parameters.AddWithValue("@DonViTienTe", (object?)invoiceDetail.donViTienTe ?? DBNull.Value);
                     insertHoaDonDetail.Parameters.AddWithValue("@TiGia", (object?)invoiceDetail.tiGia ?? DBNull.Value);
@@ -234,6 +232,14 @@ namespace API_Project1.Services
 
                     DateTime parsedNgayLap = DateTime.ParseExact(invoiceDetail.ngayLap ?? throw new Exception("ngayLap is required"), format, culture);
 
+
+                    //xử lý trong trường hợp các trường ngayDuyet/Nhan/.... trả về null
+                    //nếu không null thì sẽ trả về invoiceDetail.ngay....., parse nó về theo dạng format, định dạng như culture (ngày tháng tiêu chuẩn quốc tế), data type là DateTime
+                    DateTime? parsedngayLap = null;
+                    if(!string.IsNullOrEmpty(invoiceDetail.ngayLap))
+                    {
+                        parsedngayLap = DateTime.ParseExact(invoiceDetail.ngayLap, format, culture);
+                    }    
                     DateTime? parsedNgayDuyet = null;
                     if (!string.IsNullOrEmpty(invoiceDetail.ngayDuyet))
                     {
@@ -243,25 +249,30 @@ namespace API_Project1.Services
                     DateTime? parsedNgayNhan = null;
                     if (!string.IsNullOrEmpty(invoiceDetail.ngayNhan))
                     {
-                        parsedNgayNhan = DateTime.ParseExact(invoiceDetail.ngayNhan, format, culture);
+                       parsedNgayNhan = DateTime.ParseExact(invoiceDetail.ngayNhan, format, culture);
                     }
                     DateTime? parsedNgayThanhToan = null;
                     if (!string.IsNullOrEmpty(invoiceDetail.ngayThanhToan))
                     {
-                        parsedNgayThanhToan = DateTime.ParseExact(invoiceDetail.ngayThanhToan, format, culture);
+                            parsedNgayThanhToan = DateTime.ParseExact(invoiceDetail.ngayThanhToan, format, culture);
                     }
                     DateTime? parsedNgayKy = null;
                     if (!string.IsNullOrEmpty(invoiceDetail.ngayKy))
                     {
-                        parsedNgayKy = DateTime.ParseExact(invoiceDetail.ngayKy, format, culture);
+                        //parsedNgayKy = DateTime.ParseExact(invoiceDetail.ngayKy, format, culture);
+                        try
+                        {
+                            parsedNgayKy = DateTime.ParseExact(invoiceDetail.ngayKy, format, culture);
+                        }
+                        catch (FormatException ex)
+                        {
+                            Console.WriteLine($"ParseExact failed for ngayKy = {invoiceDetail.ngayKy}");
+                            throw;
+                        }
+                        //đoạn try catch dùng để check data type của response trả về
                     }
-
-                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayDuyet", (object?)parsedNgayDuyet ?? DBNull.Value);
-                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayNhan", (object?)parsedNgayNhan ?? DBNull.Value);
-                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayThanhToan", (object?)parsedNgayThanhToan ?? DBNull.Value);
-                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayKy", (object?)parsedNgayKy ?? DBNull.Value);
-
-
+                    //Phải xử lý các trường hợp null trước mới gọi và truyền các giá trị này vào @NgayLap... sau, nếu không sẽ nhận phải lỗi null
+                    insertHoaDonDetail.Parameters.Add("@NgayLap", SqlDbType.DateTime).Value = (object?)parsedngayLap ?? DBNull.Value;
                     insertHoaDonDetail.Parameters.Add("@NgayDuyet", SqlDbType.DateTime).Value = (object?)parsedNgayDuyet ?? DBNull.Value;
                     insertHoaDonDetail.Parameters.Add("@NgayNhan", SqlDbType.DateTime).Value = (object?)parsedNgayNhan ?? DBNull.Value;
                     insertHoaDonDetail.Parameters.Add("@NgayThanhToan", SqlDbType.DateTime).Value = (object?)parsedNgayThanhToan ?? DBNull.Value;
@@ -404,3 +415,7 @@ namespace API_Project1.Services
 
     }
 }
+ //insertHoaDonDetail.Parameters.AddWithValue("@NgayDuyet", (object?)parsedNgayDuyet ?? DBNull.Value);
+                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayNhan", (object?)parsedNgayNhan ?? DBNull.Value);
+                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayThanhToan", (object?)parsedNgayThanhToan ?? DBNull.Value);
+                    //insertHoaDonDetail.Parameters.AddWithValue("@NgayKy", (object?)parsedNgayKy ?? DBNull.Value);
