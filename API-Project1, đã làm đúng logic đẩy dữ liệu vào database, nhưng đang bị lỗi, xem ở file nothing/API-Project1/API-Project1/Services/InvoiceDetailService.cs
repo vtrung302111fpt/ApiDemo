@@ -58,7 +58,6 @@ namespace API_Project1.Services
 
             var finalSon = JsonSerializer.Serialize(detailList, new JsonSerializerOptions { WriteIndented = true });
             return finalSon;
-
         }
 
 

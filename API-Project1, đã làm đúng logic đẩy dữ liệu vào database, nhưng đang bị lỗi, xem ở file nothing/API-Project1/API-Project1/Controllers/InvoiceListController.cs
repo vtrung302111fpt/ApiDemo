@@ -21,11 +21,13 @@ public class InvoiceListController : ControllerBase
     {
         try
         {
-            var raw = await _invoiceListService.GetInvoiceListAsync(currentPage);
+            var raw = await _invoiceListService.GetDataListAsync(currentPage);
+            //chuyển qua dùng hàm lọc data có sẵn, không dùng hàm full response nữa
 
             using var doc = JsonDocument.Parse(raw);
             var root = doc.RootElement;
-            var data = root.GetProperty("data").Clone();
+
+            var data = root.Clone();  // root chính là mảng data rồi
 
             // Gọi hàm ConvertJsonToInvoiceList từ service
             List<InvoiceListDataModel> invoices = _invoiceListService.ConvertJsonToInvoiceList(data);
@@ -33,6 +35,7 @@ public class InvoiceListController : ControllerBase
             await _invoiceListService.SaveListToDatabaseAsync(invoices);
 
             return Ok(data);
+
         }
         catch (Exception ex)
         {
@@ -42,4 +45,3 @@ public class InvoiceListController : ControllerBase
 
 
 }
-//return Content(raw, "application/json");                            //gọi hết full response

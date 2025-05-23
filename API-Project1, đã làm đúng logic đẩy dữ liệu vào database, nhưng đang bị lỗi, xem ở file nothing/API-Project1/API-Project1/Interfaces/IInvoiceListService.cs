@@ -11,5 +11,7 @@ namespace API_Project1.Interfaces
         Task SaveListToDatabaseAsync(List<InvoiceListDataModel> invoices);
 
         List<InvoiceListDataModel> ConvertJsonToInvoiceList(JsonElement data);
+
+        Task<string> GetDataListAsync(int currentPage);
     }
 }

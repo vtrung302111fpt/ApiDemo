@@ -98,6 +98,16 @@ namespace API_Project1.Services
             return response;
 
         }
+
+        public async Task<string> GetDataListAsync(int currentPage = 0)
+        {
+            var json = await GetInvoiceListAsync(currentPage);                              //đợi các mã ở trang thứ currentPage, lưu response dạng chuỗi JSON vào biến 'json'
+            using var doc = JsonDocument.Parse(json);                                       //phân tích json thành JsonDocument rồi truy cập nội dung chính của JSON
+            var root = doc.RootElement;
+
+            var dataArray = root.GetProperty("data");
+            return dataArray.GetRawText();
+        }
         public async Task SaveListToDatabaseAsync(List<InvoiceListDataModel> invoices)
         {
             var connectionString = "Server=localhost\\SQLEXPRESS; Database=BILL_STORE; Trusted_Connection=True; Encrypt=False; TrustServerCertificate=False;";
