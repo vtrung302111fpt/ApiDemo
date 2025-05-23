@@ -98,7 +98,9 @@ namespace API_Project1.Services
             return response;
 
         }
+        
 
+        //hàm lọc data riêng để controller gọi
         public async Task<string> GetDataListAsync(int currentPage = 0)
         {
             var json = await GetInvoiceListAsync(currentPage);                              //đợi các mã ở trang thứ currentPage, lưu response dạng chuỗi JSON vào biến 'json'
@@ -111,7 +113,6 @@ namespace API_Project1.Services
         public async Task SaveListToDatabaseAsync(List<InvoiceListDataModel> invoices)
         {
             var connectionString = "Server=localhost\\SQLEXPRESS; Database=BILL_STORE; Trusted_Connection=True; Encrypt=False; TrustServerCertificate=False;";
-
 
             using (var connection = new SqlConnection(connectionString))
             {

@@ -25,36 +25,24 @@ namespace API_Project1.Controllers
         {
             try
             {
-                var content = await _invoiceDetailService.GetInvoiceDetailAsync(currentPage);
-                //return Content(content, "application/json");
+                var content = await _invoiceDetailService.GetDataDetailAsync(currentPage);
 
-
-
+                // Parse để xử lý tiếp
                 using var doc = JsonDocument.Parse(content);
                 var root = doc.RootElement;
 
-                if (root.ValueKind != JsonValueKind.Array)                   //kiểm tra dạng của
+                if (root.ValueKind != JsonValueKind.Array)
                 {
-                    return BadRequest("Dữ liệu không hợp lệ, không phải mảng JSON");
+                    return BadRequest("Dữ liệu không hợp lệ, không phải mảng JSON.");
                 }
 
-                var dataList = new List<JsonElement>();
+                var dataList = root.EnumerateArray().Select(e => e.Clone()).ToList();
 
-                foreach (var element in root.EnumerateArray())
-                {
-                    if (element.TryGetProperty("data", out var dataElement))
-                    {
-                        dataList.Add(dataElement.Clone());
-                    }    
-                }
+                var invoiceDetails = _invoiceDetailService.ConvertJsonToInvoiceDetail(dataList);
+                await _invoiceDetailService.SaveDetailToDatabaseAsync(invoiceDetails);
 
-                var finalJson = JsonSerializer.Serialize(dataList, new JsonSerializerOptions { WriteIndented = true });
+                return Content(content, "application/json");
 
-
-                List<InvoiceDetailDataModel> invoicesDetails = _invoiceDetailService.ConvertJsonToInvoiceDetail(dataList);
-
-                await _invoiceDetailService.SaveDetailToDatabaseAsync(invoicesDetails);
-                return Content(finalJson, "application/json");
 
             }
             catch (Exception ex)

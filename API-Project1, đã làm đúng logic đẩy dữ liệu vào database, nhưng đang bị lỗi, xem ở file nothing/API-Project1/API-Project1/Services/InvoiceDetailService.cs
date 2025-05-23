@@ -60,7 +60,31 @@ namespace API_Project1.Services
             return finalSon;
         }
 
+        //hàm lấy data detail riêng
+        public async Task<string> GetDataDetailAsync(int currentPage = 0)
+        {
+            var json = await GetInvoiceDetailAsync(currentPage);                              //đợi các mã ở trang thứ currentPage, lưu response dạng chuỗi JSON vào biến 'json'
+            using var doc = JsonDocument.Parse(json);                                       //phân tích json thành JsonDocument rồi truy cập nội dung chính của JSON
+            var root = doc.RootElement;
 
+            if (root.ValueKind != JsonValueKind.Array)
+            {
+                throw new Exception("Dữ liệu không phải dạng mảng JSON.");
+            }
+
+            var dataOnlyList = new List<JsonElement>();
+
+            foreach (var item in root.EnumerateArray())
+            {
+                if (item.TryGetProperty("data", out var dataElement))
+                {
+                    dataOnlyList.Add(dataElement.Clone());
+                }
+            }
+
+            var resultJson = JsonSerializer.Serialize(dataOnlyList, new JsonSerializerOptions { WriteIndented = true });
+            return resultJson;
+        }
 
 
         public async Task SaveDetailToDatabaseAsync(List<InvoiceDetailDataModel> invoiceDetails)
